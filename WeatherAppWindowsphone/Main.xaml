@@ -1,0 +1,47 @@
+﻿<Page
+    x:Class="WeatherAppWindowsphone.Main"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WeatherAppWindowsphone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock TextWrapping="Wrap" Text="Weather App"></TextBlock>
+        </StackPanel>
+        <StackPanel>
+            <TextBlock TextWrapping="Wrap" Text="Zip code:"/>
+            <TextBox x:Name="txtZipCode"/>
+            <Button x:Name="btnGetWeather">GET WEATHER</Button>
+        </StackPanel>
+        <TextBlock x:Name="ResultsTitle" HorizontalAlignment="Left" Margin="13,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="25" Foreground="#FFFBF400"/>
+        <StackPanel x:Name="ResultsStackPanel" HorizontalAlignment="Left" Height="198" Margin="13,223,0,0" VerticalAlignment="Top" Width="335" Orientation="Horizontal">
+            <StackPanel Width="100">
+                <TextBlock TextWrapping="Wrap" Text="Temp:" FontSize="20" Padding="0,0,0,5" />
+                <TextBlock TextWrapping="Wrap" Text="Wind:" FontSize="20" Padding="0,0,0,5" />
+                <TextBlock TextWrapping="Wrap" Text="Humidity:" FontSize="20" Padding="0,0,0,5" />
+                <TextBlock TextWrapping="Wrap" Text="visibility:" FontSize="20" Padding="0,0,0,5" />
+                <TextBlock TextWrapping="Wrap" Text="Sunrise:" FontSize="20" Padding="0,0,0,5" />
+                <TextBlock TextWrapping="Wrap" Text="Sunset:" FontSize="20" Padding="0,0,0,5" />
+            </StackPanel>
+            <StackPanel Width="100">
+                <TextBlock x:Name="TempText" TextWrapping="Wrap" Text="70" FontSize="20" Margin="0,0,-17,5" HorizontalAlignment="Right" Width="117" Foreground="#FFF2FF00"/>
+                <TextBlock x:Name="WindText" TextWrapping="Wrap" Text="10" FontSize="20" Margin="0,0,-17,5" Foreground="#FFEEFB00"/>
+                <TextBlock x:Name="HumidityText" TextWrapping="Wrap" Text="70" FontSize="20" Margin="0,0,-17,5" Foreground="#FFF0FD00"/>
+                <TextBlock x:Name="VisibilityText" TextWrapping="Wrap" Text="10" FontSize="20" Margin="0,0,-17,5" Foreground="#FFE8F400"/>
+                <TextBlock x:Name="SunriseText" TextWrapping="Wrap" Text="7:46 AM" FontSize="20" Margin="0,0,-17,5" Foreground="#FFF0FD00"/>
+                <TextBlock x:Name="SunsetText" TextWrapping="Wrap" Text="5:58 PM" FontSize="20" Margin="0,0,-17,5" Foreground="#FFEDF900"/>
+            </StackPanel>
+            <StackPanel Width="100">
+                <TextBlock TextWrapping="Wrap" Text="F" FontSize="20" Padding="0,0,0,5"/>
+                <TextBlock TextWrapping="Wrap" Text="mph" FontSize="20" Padding="0,0,0,5"/>
+                <TextBlock TextWrapping="Wrap" Text="%" FontSize="20" Padding="0,0,0,5"/>
+                <TextBlock TextWrapping="Wrap" Text="miles" FontSize="20" Padding="0,0,0,5"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

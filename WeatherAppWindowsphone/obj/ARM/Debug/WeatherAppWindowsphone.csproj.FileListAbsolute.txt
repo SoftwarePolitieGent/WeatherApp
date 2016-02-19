@@ -1,0 +1,11 @@
+C:\Users\p6013540\documents\visual studio 2015\Projects\WeatherApp\WeatherAppWindowsphone\obj\ARM\Debug\WeatherAppWindowsphone.csprojResolveAssemblyReference.cache
+C:\Users\p6013540\documents\visual studio 2015\Projects\WeatherApp\WeatherAppWindowsphone\obj\ARM\Debug\App.g.i.cs
+C:\Users\p6013540\documents\visual studio 2015\Projects\WeatherApp\WeatherAppWindowsphone\obj\ARM\Debug\App.g.cs
+C:\Users\p6013540\documents\visual studio 2015\Projects\WeatherApp\WeatherAppWindowsphone\obj\ARM\Debug\Main.g.i.cs
+C:\Users\p6013540\documents\visual studio 2015\Projects\WeatherApp\WeatherAppWindowsphone\obj\ARM\Debug\Main.g.cs
+C:\Users\p6013540\documents\visual studio 2015\Projects\WeatherApp\WeatherAppWindowsphone\obj\ARM\Debug\App.xaml
+C:\Users\p6013540\documents\visual studio 2015\Projects\WeatherApp\WeatherAppWindowsphone\obj\ARM\Debug\Main.xaml
+C:\Users\p6013540\documents\visual studio 2015\Projects\WeatherApp\WeatherAppWindowsphone\obj\ARM\Debug\Maincopie.xaml
+C:\Users\p6013540\documents\visual studio 2015\Projects\WeatherApp\WeatherAppWindowsphone\obj\ARM\Debug\App.xbf
+C:\Users\p6013540\documents\visual studio 2015\Projects\WeatherApp\WeatherAppWindowsphone\obj\ARM\Debug\Main.xbf
+C:\Users\p6013540\documents\visual studio 2015\Projects\WeatherApp\WeatherAppWindowsphone\obj\ARM\Debug\Maincopie.xbf
