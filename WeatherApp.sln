@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherAppAndroid", "WeatherApp\WeatherAppAndroid.csproj", "{CDF9290B-C346-43E0-A53B-E551CE40AE81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherAppAndroid", "WeatherApp\WeatherApp\WeatherAppAndroid.csproj", "{CDF9290B-C346-43E0-A53B-E551CE40AE81}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{BFA54444-CD1E-4D1F-B68A-6641FE48CCD3}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "WeatherApp\Shared\Shared.shproj", "{BFA54444-CD1E-4D1F-B68A-6641FE48CCD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherAppWindowsphone", "WeatherAppWindowsphone\WeatherAppWindowsphone.csproj", "{39FAF330-8146-471C-B541-3EAA55CBDCB4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherAppWindowsphone", "WeatherApp\WeatherAppWindowsphone\WeatherAppWindowsphone.csproj", "{39FAF330-8146-471C-B541-3EAA55CBDCB4}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Shared\Shared.projitems*{39faf330-8146-471c-b541-3eaa55cbdcb4}*SharedItemsImports = 4
-		Shared\Shared.projitems*{cdf9290b-c346-43e0-a53b-e551ce40ae81}*SharedItemsImports = 4
-		Shared\Shared.projitems*{bfa54444-cd1e-4d1f-b68a-6641fe48ccd3}*SharedItemsImports = 13
+		WeatherApp\Shared\Shared.projitems*{39faf330-8146-471c-b541-3eaa55cbdcb4}*SharedItemsImports = 4
+		WeatherApp\Shared\Shared.projitems*{cdf9290b-c346-43e0-a53b-e551ce40ae81}*SharedItemsImports = 4
+		WeatherApp\Shared\Shared.projitems*{bfa54444-cd1e-4d1f-b68a-6641fe48ccd3}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
