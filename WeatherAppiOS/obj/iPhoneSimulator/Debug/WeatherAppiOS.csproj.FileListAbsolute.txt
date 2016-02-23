@@ -1,0 +1,14 @@
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppiOS\bin\iPhoneSimulator\Debug\WeatherAppiOS.exe
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppiOS\bin\iPhoneSimulator\Debug\WeatherAppiOS.pdb
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppiOS\obj\iPhoneSimulator\Debug\ibtool\LaunchScreen.nib
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppiOS\obj\iPhoneSimulator\Debug\ibtool\Main.storyboardc\9-view-10.nib
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppiOS\obj\iPhoneSimulator\Debug\ibtool\Main.storyboardc\Info.plist
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppiOS\obj\iPhoneSimulator\Debug\ibtool\Main.storyboardc\UIViewController-9.nib
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppiOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppiOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppiOS\obj\iPhoneSimulator\Debug\optimized\Entitlements.plist
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppiOS\obj\iPhoneSimulator\Debug\WeatherAppiOS.csprojResolveAssemblyReference.cache
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppiOS\obj\iPhoneSimulator\Debug\WeatherAppiOS.exe
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppiOS\obj\iPhoneSimulator\Debug\WeatherAppiOS.pdb
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppiOS\obj\iPhoneSimulator\Debug\WeatherAppiOS.exe.mdb
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppiOS\bin\iPhoneSimulator\Debug\WeatherAppiOS.exe.mdb

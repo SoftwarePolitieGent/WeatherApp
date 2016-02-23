@@ -1,4 +1,5 @@
 ﻿using Foundation;
+using ObjCRuntime;
 using UIKit;
 
 namespace WeatherAppiOS
@@ -14,6 +15,11 @@ namespace WeatherAppiOS
         {
             get;
             set;
+        }
+
+        public override bool ContinueUserActivity(UIApplication application, NSUserActivity userActivity, [BlockProxy(typeof(NIDUIApplicationRestorationHandler))] UIApplicationRestorationHandler completionHandler)
+        {
+            return base.ContinueUserActivity(application, userActivity, completionHandler);
         }
 
         public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)

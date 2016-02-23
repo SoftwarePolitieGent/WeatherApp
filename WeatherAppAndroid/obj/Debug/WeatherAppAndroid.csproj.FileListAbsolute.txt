@@ -1,0 +1,17 @@
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppAndroid\bin\Debug\WeatherAppAndroid.dll
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppAndroid\bin\Debug\WeatherAppAndroid.pdb
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppAndroid\bin\Debug\WeatherAppAndroid.WeatherAppAndroid.apk
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppAndroid\bin\Debug\WeatherAppAndroid.WeatherAppAndroid-Signed.apk
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppAndroid\obj\Debug\WeatherAppAndroid.csprojResolveAssemblyReference.cache
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppAndroid\obj\Debug\res\drawable\monoandroidsplash.png
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppAndroid\obj\Debug\res\values\styles.xml
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppAndroid\obj\Debug\WeatherAppAndroid.dll
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppAndroid\obj\Debug\WeatherAppAndroid.pdb
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppAndroid\obj\Debug\android\bin\WeatherAppAndroid.WeatherAppAndroid.apk
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppAndroid\obj\Debug\res\layout\main.xml
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppAndroid\obj\Debug\res\values\strings.xml
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppAndroid\obj\Debug\res\drawable\icon.png
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppAndroid\obj\Debug\R.cs.flag
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppAndroid\obj\Debug\uploadflags.txt
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppAndroid\obj\Debug\WeatherAppAndroid.dll.mdb
+C:\Users\p6013540\Source\Repos\WeatherApp\WeatherAppAndroid\bin\Debug\WeatherAppAndroid.dll.mdb
