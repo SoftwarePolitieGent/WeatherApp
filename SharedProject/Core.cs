@@ -1,42 +1,47 @@
-﻿using System;
+﻿using Shared;
+using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace SharedProject
 {
-    public static async Task<Weather> GetWeather(string zipCode)
+    public class Core
     {
-        string queryString =
-            "https://query.yahooapis.com/v1/public/yql?q=select+*+from+weather.forecast+where+location=" +
-             zipCode + "&format=json";
-
-        dynamic results = await DataService.getDataFormService(queryString).ConfigureAwait(false);
-
-        dynamic weatherOverview = results["query"]["results"]["channel"];
-
-        if ((string)weatherOverview["description"] != "Yahoo! Weather Error")
+        public static async Task<Weather> GetWeather(string zipCode)
         {
-            Weather weather = new Weather();
+            string queryString =
+                "https://query.yahooapis.com/v1/public/yql?q=select+*+from+weather.forecast+where+location=" +
+                 zipCode + "&format=json";
 
-            weather.Title = (string)weatherOverview["description"];
+            dynamic results = await DataService.getDataFormService(queryString).ConfigureAwait(false);
 
-            dynamic wind = weatherOverview["wind"];
-            weather.Temperature = (string)wind["chill"];
-            weather.Wind = (string)wind["speed"];
+            dynamic weatherOverview = results["query"]["results"]["channel"];
 
-            dynamic atmosphere = weatherOverview["atmosphere"];
-            weather.Humidity = (string)atmosphere["humidity"];
-            weather.Visibility = (string)atmosphere["visibility"];
+            if ((string)weatherOverview["description"] != "Yahoo! Weather Error")
+            {
+                Weather weather = new Weather();
 
-            dynamic astronomy = weatherOverview["astronomy"];
-            weather.Sunrise = (string)astronomy["sunrise"];
-            weather.Sunset = (string)astronomy["sunset"];
+                weather.Title = (string)weatherOverview["description"];
 
-            return weather;
-        }
-        else
-        {
-            return null;
+                dynamic wind = weatherOverview["wind"];
+                weather.Temperature = (string)wind["chill"];
+                weather.Wind = (string)wind["speed"];
+
+                dynamic atmosphere = weatherOverview["atmosphere"];
+                weather.Humidity = (string)atmosphere["humidity"];
+                weather.Visibility = (string)atmosphere["visibility"];
+
+                dynamic astronomy = weatherOverview["astronomy"];
+                weather.Sunrise = (string)astronomy["sunrise"];
+                weather.Sunset = (string)astronomy["sunset"];
+
+                return weather;
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }
